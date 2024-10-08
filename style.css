@@ -180,7 +180,11 @@ img{
     }
 }
 
-
+#scroll-div2:hover h1{
+    animation-play-state: paused;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
 /* Updated CSS for pausing scroll-div2 animation on image hover */
 img:hover ~ #scroll-div2 h1 {
     animation-play-state: paused;
